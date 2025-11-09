@@ -1,2 +1,2 @@
-# obsidian-web-clipper-templates
-My collection of Obsidian Web Clipper templates.
+# Obsidian Web Clipper Templates
+This repository contains my collection of Obsidian Web Clipper templates.
