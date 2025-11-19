@@ -1,0 +1,66 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Clipping",
+	"behavior": "create",
+	"noteContentFormat": "{{content}}",
+	"properties": [
+		{
+			"name": "category",
+			"value": "Clippings",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "topics",
+			"value": "{{\\\"A comma-separated list of up to 3 topics or subject areas (not more than 4 words for each topic) that are covered in the article. Topics should use title case.\\\"|split:\\\", \\\"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "multitext"
+		},
+		{
+			"name": "published",
+			"value": "{{published}}",
+			"type": "date"
+		},
+		{
+			"name": "rating",
+			"value": "",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "{{\\\"A comma-separated list of up to four short snake-case tags or labels that capture the essence of the article to be used in note-taking apps like Obsidian.\\\"|split:\\\", \\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "note_created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "note_reviewed",
+			"value": "false",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "Collections/Clippings"
+}

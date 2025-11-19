@@ -1,0 +1,46 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Bookmark",
+	"behavior": "create",
+	"noteContentFormat": "![cover]({{image}})\n\n{{description}}\n",
+	"properties": [
+		{
+			"name": "category",
+			"value": "Bookmarks",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "url",
+			"value": "{{url}}",
+			"type": "multitext"
+		},
+		{
+			"name": "tags",
+			"value": "{{\\\"A comma-separated list of up to four short snake-case tags or labels that capture the essence of the article to be used in note-taking apps like Obsidian.\\\"|split:\\\", \\\"|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "cover",
+			"value": "{{image}}",
+			"type": "text"
+		},
+		{
+			"name": "note_created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "note_reviewed",
+			"value": "false",
+			"type": "checkbox"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{site}}",
+	"path": "Collections/Bookmarks"
+}
